@@ -26,4 +26,5 @@ public class NavigateStepDef {
         System.out.println("Then go to Developers menu and get the text of Developer");
 
     }
+
 }
