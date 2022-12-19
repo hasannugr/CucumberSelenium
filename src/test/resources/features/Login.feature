@@ -32,7 +32,7 @@ Feature: Krafttech Log in Test
     When User should input login information
     Then User should be on home page
 
-
+  @wip
   Scenario: Login with parameters
     Given User should be on the login page
     When User should input "user11@test.com" and "Test123456"

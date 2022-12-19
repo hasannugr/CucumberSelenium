@@ -1,5 +1,5 @@
 Feature: Account Type
-
+@wip
   Scenario: first user
     Given User should be on the login page
     When User should input "hasann.huseyinugr@gmail.com" and "14533541"
@@ -9,12 +9,12 @@ Feature: Account Type
     Given User should be on the login page
     When User should input "eddiem@kraft.com" and "eddiem12"
     Then The user name should be "Eddie Murphy"
-
+@morgan
   Scenario: Third user
     Given User should be on the login page
     When User should input "morganfreeman@kraft.com" and "mfreeman"
     Then The user name should be "Morgan Freeman"
-
+  @wip
   Scenario: fourth user
     Given User should be on the login page
     When User should input "krafttech@kraft.com" and "Test1234"
